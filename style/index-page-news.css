@@ -1,0 +1,170 @@
+#mainbox
+{
+    width: 100%;
+    height: 100%;
+}
+#firstbar
+{
+    width:1350px;
+    height:60px;
+    background-color:red;
+    margin-left:1px;
+    margin-top: 0cm;
+    position: relative;
+
+ }
+img
+{
+  position: absolute;
+    display:inline-block;
+    margin: 0px;
+    top:50%;
+    transform: translate(0,-50%);
+    left:4cm;
+    width:35px;
+    height:35px;
+}
+h1
+{
+    font-size:20px;
+    display:inline-block;
+   position: absolute;
+    margin: 0px;
+    top:50%;
+    transform: translate(0,-50%);
+    left:5.3cm;
+    color:white;
+    font-style: initial;
+}
+h7
+{
+   font-size:10px;
+    display:inline-block;
+   position: absolute;
+    margin: 0px;
+    top:50%;
+    transform: translate(0,-50%);
+    left:9.5cm;
+    color:lightgray;
+    font-style: initial;
+}
+form
+{
+    font-size:17px;
+    display:inline-block;
+   position: absolute;
+    margin: 0px;
+    top:50%;
+    transform: translate(0,-50%);
+    left:28cm;
+    color:white;
+    font-style: initial;
+ }
+ #secondbar
+{
+    width:1350px;
+    height:60px;
+    background-color:white;
+    margin-left:1px;
+    margin-top: 1.5cm;
+    position: relative;
+
+ }
+ nav
+{
+  position: absolute;
+    display:inline-block;
+    margin: 0px;
+    top:50%;
+    transform: translate(0,-100px);
+
+    left:4cm;
+    width:35px;
+    height:35px;
+}
+h5
+{
+
+    font-size:20px;
+    display:inline-block;
+    position: absolute;
+    margin: 0px;
+    transform: translate(0,10px);
+    top:50%;
+    left:0cm;
+    color:black;
+    font-style: initial;
+}
+.container a h5:hover
+{
+ background-color:red;
+}
+.container a h5:active
+{
+ color:white;
+}
+#search
+{
+  position: absolute;
+    display:inline-block;
+    margin: 0px;
+    transform: translate(0,-100px);
+    top:68.5px;
+
+    left:27cm;
+    width:10px;
+    height:10px;
+}
+hr
+{
+    outline-color: gray;
+}
+#thirdbar  img
+{
+    width:340px;
+    height:200px;
+    background-color:white;
+    margin-left:1px;
+    margin-top: 0cm;
+    position: relative;
+    top:60px;
+    left :12cm;
+}
+figcaption
+{
+  font-size:10px;
+  color: gray;
+  margin-top: -40px;
+  left :13.5cm;
+  position: absolute;
+}
+footer
+{
+    font-size:9px;
+}
+
+#fifthbar
+{
+    position: relative;
+    top:10px;
+    left :3.5px;
+
+}
+
+
+
+table {
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+td, th {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+}
+
+tr:nth-child(even) {
+background-color: #dddddd;
+}
